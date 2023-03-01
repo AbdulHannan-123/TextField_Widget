@@ -63,7 +63,52 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
                 
                 // autofocus: true,    // to get the keyboard focus
 
-                // buildCounter: ,
+              // buildCounter: (context,                                 // help you to make the limit in text field entering charracter
+              //     {required currentLength, required isFocused, maxLength}) {
+              //   return Container(
+              //     transform: Matrix4.translationValues(0, -kToolbarHeight, 0),
+              //     child: Text("$currentLength/$maxLength"),
+              //   );
+              // },
+
+                // clipBehavior: Clip.antiAlias,      // widget should clip its content at the boundaries of the widget, with a smooth anti-aliased edge.
+                // clipBehavior: Clip.hardEdge,          //widget should clip its content at the boundaries of the widget, with a hard edge.
+
+                // cursorColor: Colors.red,          // change the color of the curser
+
+                // cursorHeight: 100,                 // heaight of the curser at start
+
+                // cursorRadius: Radius.circular(100),   // give the smooth curves to the curser
+
+                // cursorWidth: 30,      // give curser some width
+
+                decoration: InputDecoration(
+                  // alignLabelWithHint:  true,    // to make the label in the place of hint or in the center
+
+                  // labelText: "Descreva aqui o motivo",  // normal label of the textfield
+
+                  // border: OutlineInputBorder(
+                  //           borderSide: BorderSide(    
+                  //           color: Colors.blue,     // color of border line
+                  //           width: 0.3,              // how thick the border is
+                  //           strokeAlign: 0.5         // gives the padding
+                  //         ),
+                  //         borderRadius: BorderRadius.circular(20),    // gives the radius to the sides of the border
+                          // gapPadding: 1000
+                          //)
+
+                  // constraints: BoxConstraints(     // height widht for the text field
+                  //   maxWidth: 50,
+                  //   maxHeight: 10,
+                  //   minWidth: 20
+                  // ),
+
+                  // contentPadding: EdgeInsets.all(8)     // the padding under the text field
+
+                  // counter: 
+
+                ),
+
                
               ),
             ),
