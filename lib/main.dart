@@ -11,10 +11,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: const TextFieldWidgets(),
     );
   }
@@ -43,7 +39,7 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
         body: Column(
           children: [
             Container(
-              color: Colors.grey,
+              // color: Colors.grey,
               padding: EdgeInsets.all(8),
               child: TextField(
 
@@ -94,8 +90,8 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
                   //           strokeAlign: 0.5         // gives the padding
                   //         ),
                   //         borderRadius: BorderRadius.circular(20),    // gives the radius to the sides of the border
-                          // gapPadding: 1000
-                          //)
+                  //         gapPadding: 1000
+                  //         ),
 
                   // constraints: BoxConstraints(     // height widht for the text field
                   //   maxWidth: 50,
@@ -107,7 +103,123 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
 
                   // counter: Text("666") ,
 
-                  disabledBorder: InputBorder.none
+                  // disabledBorder: InputBorder(           //you can change the setting of the border
+                  //   borderSide: BorderSide.strokeAlignCenter.
+                  // ),
+
+                  // enabled: true      // this help to show the hint/counter/... text to display
+
+                  // prefixIcon: const Icon(Icons.person),        // to show something in start
+                  //   prefixIconColor:
+                  //       MaterialStateColor.resolveWith((Set<MaterialState> states) { // in order to check the state of the text field
+                  //     if (states.contains(MaterialState.focused)) {     // the field is focus then perform this
+                  //       return Colors.green;
+                  //     }
+                  //     if (states.contains(MaterialState.error)) {      // if field gets error perform this
+                  //       return Colors.red;
+                  //     }
+                  //     return Colors.grey;                            // rest of the time
+                  //   }), 
+
+                  // enabledBorder: UnderlineInputBorder(      the line under the field at bottom
+                  //   borderRadius: BorderRadius.circular(100),
+                  //   borderSide: BorderSide(
+                  //     color: Colors.red,
+                  //     width: 1.0
+                  //   )
+                  // )
+
+                  // errorMaxLines: 1      // just to show the how manay lines errors have
+
+                  // errorStyle: TextStyle()  // style of the error text
+
+                  // errorText: "error"            // error to be shown
+
+                  // fillColor: Colors.red,           // the field background color 
+
+                  // filled: false               // fill color work on the behalf of this
+
+                  // floatingLabelAlignment: FloatingLabelAlignment.center,    // when focus on field where the label should go
+
+                  // floatingLabelBehavior: FloatingLabelBehavior.always ,     // means lable is alwasy on float
+
+                  // floatingLabelStyle: TextStyle()              // the label text stle colors
+
+                  // focusColor: Colors.amberAccent,//// yhis ignore by the textfield and text form field
+
+                  // focusedBorder: OutlineInputBorder(      // when focus on text field
+                  //   borderSide: BorderSide(
+                  //     color: Colors.green,
+                  //     width: 5
+                  //   )
+                  // )
+
+                  // focusedErrorBorder:            // when some error is get in it
+
+                  // helperText: " hannan here"           // also a kind of hint text at start 
+
+                  // helperMaxLines: 2            // line you  want to give to helper text
+
+                  // helperStyle: TextStyle()       // text stle of helper text
+
+                  // hintText: "enter here"        // the field name to show as hint
+
+                  // hintMaxLines: 1             //line to give your hint in text field,
+
+                  // hintTextDirection: TextDirection.ltr         // hint text to show ltr for urdu rtr for english
+
+                  // hoverColor: Colors.red         // not for mobile i guess for web
+
+                  // icon: Icon(Icons.abc)          // to show the icon at start
+
+                  // iconColor: Colors.amber              // color of the upper icon
+
+                  // isCollapsed: false               //A collapsed decoration cannot have labelText, errorText, an icon.
+
+                  // isDense: true                        // minimise the vertical space from top and bottom
+
+          //         label: Text.rich(                     //the user name just like the hint text
+          //   TextSpan(
+          //     children: <InlineSpan>[
+          //       WidgetSpan(
+          //         child: Text(
+          //           'Username',
+          //         ),
+          //       ),
+          //       WidgetSpan(
+          //         child: Text(
+          //           '*',
+          //           style: TextStyle(color: Colors.red),
+          //         ),
+          //       ),
+          //     ],
+          //   ),
+          // ), 
+
+          // prefixIcon: Icon(Icons.abc)  // diff from icon property its inside the text field and the icon property is outside
+
+          // prefixIconColor: Colors.amber     //color of the prifix icon
+
+          // prefixIconConstraints: BoxConstraints()         // the size of the icons flexible
+
+          // prefixText: "hello"             // again in textfield as a stemp
+
+          // prefixStyle: TextStyle()                     //textstyle of the prefixtext
+
+          // semanticCounterText: "nikl nilkkk",
+
+          // suffix: Text("hannan here again")         // widget you want to show at the end
+
+          // suffixIcon: Icon(Icons.abc)           // icons at the end
+
+          // suffixIconColor: Colors.amber         // color of the suffix icon
+
+          // suffixIconConstraints: BoxConstraints()       // flexible the size of the icon
+
+          // suffixStyle: TextStyle()                      // suffix text style foe the text
+
+          // suffixText: "suffic text"            /// suffix text to show at the end
+
 
 
 
