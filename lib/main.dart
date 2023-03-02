@@ -105,11 +105,14 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
 
                   // contentPadding: EdgeInsets.all(8)     // the padding under the text field
 
-                  // counter: 
+                  // counter: Text("666") ,
+
+                  disabledBorder: InputBorder.none
+
+
 
                 ),
 
-               
               ),
             ),
             Container(
