@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -219,12 +220,61 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
           // suffixStyle: TextStyle()                      // suffix text style foe the text
 
           // suffixText: "suffic text"            /// suffix text to show at the end
-
-
-
-
                 ),
 
+                // enableIMEPersonalizedLearning: true,    //enable that the IME update personalized data such as typing history and user dictionary data.   when false no typing histry is recorded
+
+                // enableInteractiveSelection: false,      ///  show you the properties of cut paste  when true if false the text cant be copiet
+
+                // enableSuggestions: false,     // works when auto correct is true and help you o complete the sentence
+
+                // enabled: false ,          // when false you cant type in textfield
+
+                // expands: true,          // over flows the parent height
+
+                maxLines: 2,     //  number of line need to show in text field
+
+                // minLines: null,        // lesser amount of lines
+
+                // focusNode: FocusScope.of(context).,    // the keyboard active  propert automatically work when tap on field
+
+                // keyboardAppearance: Brightness.dark,   // work on ios
+
+                // keyboardType:TextInputType.number ,     //when want specific kind of keyboard to enter text
+
+                // magnifierConfiguration: TextMagnifierConfiguration.disabled,      // create sensitive kind of touch to perform some task
+
+                // maxLengthEnforcement: MaxLengthEnforcement.enforced,         // it is the native behavior of the android
+
+                // obscureText: true,         // **** character for the passwords
+
+                // obscuringCharacter: "^",    // the chrecter you want to show on ****
+
+                // readOnly:  true,           // is true the text cant be selected
+
+                // onAppPrivateCommand: AppPrivateCommandCallback.(p0, p1) {},   // This can be used to provide domain-specific features that are only known between certain input methods and their clients.
+
+                // onEditingComplete: () {                         // perform action on done in keyboard
+                //   print("======================================");
+                // },
+
+                // onSubmitted: (value) {      // print the complete value or you can do many task with that value
+                //   print(value);
+                // },
+
+                // onTap: () => FocusScope.of(context).unfocus(),     // tap on field will unfocus the keyboard
+
+                // onTapOutside: (event) => FocusScope.of(context).unfocus(),   // infouc the keyboard of many action when tap outside the widget
+
+                // restorationId: " hannannnnn",       // dont exactly know its working
+
+                // scribbleEnabled: ,             // only works in i pad so not sure
+
+  //               scrollController: ScrollController(
+  //                  initialScrollOffset: 0.0,
+  //  keepScrollOffset: false,
+  //               ),
+  
               ),
             ),
             Container(
