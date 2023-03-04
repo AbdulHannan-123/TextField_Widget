@@ -232,7 +232,7 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
 
                 // expands: true,          // over flows the parent height
 
-                maxLines: 2,     //  number of line need to show in text field
+                // maxLines: 2,     //  number of line need to show in text field
 
                 // minLines: null,        // lesser amount of lines
 
@@ -271,9 +271,27 @@ class _TextFieldWidgetsState extends State<TextFieldWidgets> {
                 // scribbleEnabled: ,             // only works in i pad so not sure
 
   //               scrollController: ScrollController(
-  //                  initialScrollOffset: 0.0,
-  //  keepScrollOffset: false,
-  //               ),
+              //                  initialScrollOffset: 0.0,
+              //  keepScrollOffset: false,
+              //               ),
+
+              // scrollPhysics: ScrollPhysics().parent,   // enter on scroll or use when vertically scrolling the input.
+
+              // selectionControls: MyTextSelectionControls ,  // custum styel
+
+              // textAlign: TextAlign.end,    // alignment to type from
+
+              // textAlignVertical: TextAlignVertical.bottom,    the alignment of text to type
+
+              // textCapitalization: TextCapitalization.sentences,    // give te req to type formally or else
+
+              // textDirection: TextDirection.rtl,     // when want to type in urdu or arabic
+
+              // textInputAction:TextInputAction.newline ,   // The type of action button to use for the keyboard.
+
+              // toolbarOptions: ,     // its depricated  //If not set, select all and paste will default to be enabled. Copy and cut will be disabled if obscureText is true. If readOnly is true, paste and cut will be disabled regardless.
+ 
+
   
               ),
             ),
